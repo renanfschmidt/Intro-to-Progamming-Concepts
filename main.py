@@ -19,3 +19,33 @@ agesTotal = fage+age
 print(agesTotal)
 modulusTotal= 5 % 2
 print(modulusTotal)
+
+money= int(input("Whats your money?\n"))
+movie_cost=14
+if money>movie_cost:
+    print("You can see the movie")
+else:
+    print("we cannot see the movie")
+print("end program")
+#! not equal to
+#== equal to
+#= assings to
+lang="Python"
+grade=85
+match lang:
+    case'Java':
+        print("Java is working")
+    case 'Python':
+        print("Python is working")
+    case 'C++':
+        print("C++ is working")
+    case 'C#':
+        print("C# is working")
+if (grade >=90):
+    print("you got an A")
+elif(grade>=80):
+    print("you got an B")
+elif(grade>=70):
+    print("you got an C")
+else:print("you failed")
+print("end program")
