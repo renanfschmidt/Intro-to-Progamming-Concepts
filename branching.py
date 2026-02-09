@@ -9,6 +9,5 @@ else:
     excess=kw_used-main
     overage_cost=overage*excess
     total=base_cost+overage_cost
-    (round(total))
     print("the total cost is $",round(total))
 

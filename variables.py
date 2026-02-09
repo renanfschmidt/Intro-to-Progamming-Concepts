@@ -11,7 +11,7 @@ drn1=int(input("Give me the first number you want to divide for (without the rem
 drn2=int(input("Give me the second n0.5umber you want to divide for (without the remainder):"))
 print("The answer to your query is:", drn1//drn2)
 print("--"*50)
-dmn1=int(input("Give me the first number you want to divide and get the modulo for:"))
+dmn1=int(input  ("Give me the first number you want to divide and get the modulo for:"))
 dmn2=int(input("Give me the second number you want to divide and get the modulo for:"))
 print("The answer to your query is:", dmn1%dmn2)
 print("--"*50)
