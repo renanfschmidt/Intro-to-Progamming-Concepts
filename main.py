@@ -72,3 +72,53 @@ def convert(value1):
  return converted_number
 MyAnswer=convert(int(input("Give me the number:")))
 print("The answer is ",MyAnswer)
+
+#create a list in python
+#lets start with a list of fruits
+from os import remove
+
+fruitList = ["Apple","Orange","Banana",'Grapefruit']
+print(fruitList) #Dinamics(can change and expand)
+#Statics( does not change)
+#index=starts at 0 (Apple) , 1 (orange) and so
+#specific item in a list
+print(fruitList[1])
+#update a index of a list
+fruitList[2] = "Orange"
+print(fruitList[2])
+print(fruitList)
+fruitList.append("Pear")
+print(fruitList)
+fruitList.remove("Apple")
+fruitList.insert(2,"Cherry")
+print(fruitList)
+fruitList.pop(3)
+print(fruitList)
+fruitList.append("Orange")
+print(fruitList)
+fruitList.remove("Orange")
+print(fruitList)
+countfruits=len(fruitList)
+print(countfruits)
+fruitList2=['Banana','Orange','Grapefruit']
+
+
+print(fruitList[2:4])
+
+print('-'*50)
+
+#Tuples are different from Lists
+#Tuples are static not dynamic
+#Tuples are NOT mutable
+carTuple =('Corolla','Civic','Accord','Sentra')
+
+#carTuple.append('Tundra')
+#print(carTuple)
+#this would give you an error bcz tuples are static
+print(carTuple[2])
+print(carTuple)
+
+toyTuple = carTuple
+print(toyTuple)
+
+print('-'*50)
