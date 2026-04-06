@@ -18,4 +18,4 @@ if day_count> 0:
  avg_wind=sum(wind_data)/day_count
  severity=calculation(avg_rain, avg_wind)
  print(avg_rain,avg_wind,day_count,severity)
-#Renan Faria Schmidtg
+#Renan Faria Schmidt
